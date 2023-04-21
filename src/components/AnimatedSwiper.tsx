@@ -18,7 +18,7 @@ const AnimatedSwiper: React.FC<AnimatedSwiperProps> = ({
   children,
   paginationStyle,
   duration = 300,
-  dotColor = '#000d37',
+  dotColor = '#021f6d',
   activeDotColor = '#FFFFFF',
 }) => {
   const childrenArray: React.ReactNode[] = Array.isArray(children)
